@@ -13,7 +13,7 @@ class PropertyInfo extends StatelessWidget {
     return SafeArea(
       child: Scaffold(
         body:Stack(
-          alignment: Alignment.center,
+          alignment: Alignment.bottomCenter,
           children: [
             SingleChildScrollView(
               child: Stack(
@@ -112,6 +112,7 @@ class PropertyInfo extends StatelessWidget {
                           height: 1.5,
                         ),),
                       ),
+                      const SizedBox(height: 80,)
                     ],
                   ),
 
